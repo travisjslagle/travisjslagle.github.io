@@ -1,0 +1,85 @@
+/* Color Palette:
+#555b6e     //dark blue
+#89b0ae     //dark green
+#bee3db     //light green
+#faf9f9     //off-white
+#ffd6ba     //tan
+*/
+
+body {
+    background-color: #FAF9F9;
+    color: #555b6e;
+}
+
+.navbar {
+    background-color: #89B0AE;
+
+}
+
+.navbar a {
+    color: #FFD6BA;
+}
+
+#page1 {
+    height: 90vh;
+}
+
+#landing-pic {
+    width: 120%;
+    margin-top: -35px;
+    border-radius: 3px;
+}
+
+#page2 {
+    background-color: #89b0ae;
+    height: 90vh;
+}
+
+#about-me {
+    color: #ffd6ba;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+#page3 {
+    background-color: #555b6e;
+    color: #bee3db;
+    height: 90vh;
+}
+
+#my-work {
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+#page4 {
+    background-color: #ffd6ba;
+    height: 90vh;
+}
+
+#contact-form {
+    width: 55%;
+}
+
+#contact-me p{
+    color: #555b6e !important;
+    font: bolder 36px !important;
+}
+
+#fs-frm-inputs {
+    width: 30%;
+}
+
+#social {
+    width: 55%;
+    margin-top: 30px;
+}
+
+#social i{
+    padding: 15px;
+    font-size: 40px;
+}
+
+#social a{
+    color: #555b6e;
+}
