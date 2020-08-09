@@ -17,6 +17,7 @@ body {
 
 #page1 {
     height: 110vh;
+    padding-bottom: 10vh;
 }
 
 .hero-image {
@@ -28,6 +29,7 @@ body {
     background-size: cover;
     position: relative;
     margin-left: -16px;
+    height: 65%;
 }
 
 .hero-text {
@@ -62,7 +64,13 @@ body {
 
 #page2 {
     background-color: #89b0ae;
-    height: 90vh;
+    min-height: 90vh;
+    padding-bottom: 10vh;
+}
+
+.headshot {
+    margin-top: 1rem;
+    width: 75%;
 }
 
 #about-me {
@@ -81,7 +89,8 @@ body {
 
 #page3 {
     background-color: #555b6e;
-    height: 90vh;
+    min-height: 90vh;
+    padding-bottom: 10vh;
 }
 
 #my-work  h2{
@@ -111,7 +120,7 @@ body {
 
 #page4 {
     background-color: #ffd6ba;
-    height: 100vh;
+    min-height: 100vh;
     color: #555b6e;
 }
 
