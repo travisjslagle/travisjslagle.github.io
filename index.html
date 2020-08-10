@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
@@ -14,39 +14,56 @@
     <div class="fixed-top">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Travis Slagle</a>
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#page2">About Me</a>
-            <a class="nav-item nav-link" href="#page3">My Work</a>
-            <a class="nav-item nav-link" href="#page4">Contact Me</a>
-            <a class="nav-item nav-link" href="assets/tslagleresume2020.doc" download>Resumé</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#page2">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#page3">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#page4">Contact Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="assets/tslagleresume2020.doc" download>Resumé</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
     </div>
     
     <div class="container-fluid" id="page1">
-      <div class="hero-image">
-        <div class="hero-text">
-          <h1>I'm <span style="font-size:60px">Travis Slagle</span></h1>
-          <p>And I Can Help You Build Your Space On The Internet</p>
+        <div class="hero-image">
+          <div class="hero-text">
+            <h1>I'm <span style="font-size:60px">Travis Slagle</span></h1>
+            <p>And I Can Help You Build</p>
+            <p>Your Space On The Internet</p>
+          </div>
         </div>
-      </div>
-      <div class="container" id="greeting">
-        <h3>Hello</h3>
-        <p>You have found your way to my portfolio site, welcome!</p>
-        <p>Please read on to see more <a href="#page2">about me</a>.</p>
-        <p>Or, perhaps you would prefer to jump straight to <a href="#page3">my work.</a></p>
-      </div>
+        <div class="row">
+          <div class="w-50 mx-auto" id="greeting">
+            <h3>Hello</h3>
+            <p>You have found your way to my portfolio site, welcome!</p>
+            <p>Please read on to see more <a href="#page2">about me</a>.</p>
+            <p>Or, perhaps you would prefer to jump straight to <a href="#page3">my work.</a></p>
+          </div>
+        </div>
     </div>
 
     <div class="container-fluid" id="page2">
       <div class="container" id="about-me">
         <div class="row" style="height:16vh"></div>
         <div class="row">
-          <div class="col-6">
+          <div class=" col-md">
             <img class='headshot' src='./assets/tslagle_cleaned.jpg' alt="Professional Head Shot">
           </div>
-          <div class="col-6">
+          <div class="col-md">
             <h3>About Me</h3>
             <p>I remember getting AOL for the family computer when I was 8 or 9.
                The internet is a technology that imprints its importance even on a young child.
@@ -128,7 +145,7 @@
               <a href="" target="blank">
                 <img src="assets/badges-webdev_blue.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Blue Badge</p>
+                  <p class="card-text">Blue Badge Project (coming soon)</p>
                 </div>
               </a>
             </div>
@@ -139,7 +156,7 @@
               <a href="" target="blank">
                 <img src="assets/badges-webdev_red.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Red Badge</p>
+                  <p class="card-text">Red Badge Project (coming soon)</p>
                 </div>
               </a>
             </div>

@@ -15,20 +15,28 @@ body {
     margin-left: 15px;
 }
 
+.navbar a {
+    color: #faf9f9;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
 #page1 {
     height: 110vh;
-    padding-bottom: 10vh;
+    padding-bottom: 22vh;
 }
 
 .hero-image {
-    width: 101.68%;
+    width: 102vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-left: -16px;
+    margin-left: -2vw;
     height: 65%;
 }
 
@@ -38,11 +46,12 @@ body {
     top: 35%;
     left: 12%;
     color: white;
-    line-height: 4.5;
+    line-height: 1;
 }
 
 .hero-text h1{
     font-size: 54px;
+    margin-bottom: 2rem;
 }
 
 .hero-text p{
@@ -52,7 +61,7 @@ body {
 #greeting {
     color: #555b6e;
     margin-top: 12vh;
-    margin-left: 35vw;
+    /* margin-left: 35vw; */
     line-height: 1;
     font-size: 20px;
 }
